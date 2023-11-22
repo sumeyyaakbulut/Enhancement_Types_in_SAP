@@ -97,7 +97,8 @@ Olur.
 Bu modda, sistem örnekleri BAdI tanımında belirtilen belirli kriterlere veya bağlama göre gruplandırır. Farklı bağlamlara göre birden çok örnek oluşturulabilir ve her örnek, aynı bağlam içindeki çağrılar arasında paylaşılır.
 Kullanım Senaryosu: Örnekleri belirli kriterlere göre gruplamak istediğinizde bu modu kullanın ve her çağrı grubu aynı örnekle çalışmalıdır. Bağlama özgü örnekleme, farklı bağlamlara ait çağrılar için farklı durumları korurken BAdI uygulama durumunu ilgili çağrılar arasında paylaşmanıza olanak tanır.
 
-Daha sonra badi oluşturmaya devam edelim
+*Daha sonra badi oluşturmaya devam edelim
+
 ![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/64f8ee37-ad55-4bc5-b38f-98264c7746cc)
 
 ![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/b32ec77a-c793-4353-97f6-63d9a60a68f5)
