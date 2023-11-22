@@ -1,4 +1,4 @@
-## Enhancement Types
+# Enhancement Types
 SAP ‘de, orijinal kodu değiştirmeden SAP uygulamalarının standart işlevselliğini geliştirmek için çeşitli teknikler vardır. Bu teknikler, SAP standart programlarına veya uygulamalarına özel mantık veya işlevsellik eklemenizi sağlar. SAP ‘de yaygın olarak kullanılan bazı ABAP geliştirme türleri şunlardır: 
 
 * 1.Enhancement Framework (Geliştirme Noktaları ve Geliştirme Bölümleri): Geliştirme Çerçevesi, SAP standart programlarında veya işlev modüllerinde önceden tanımlanmış noktalarda özel kod eklemenin bir yolunu sağlar. SAP geliştiricileri, standart kodlarında, özel kodunuzu ekleyebileceği kancalar görevi gören "Geliştirme Noktaları" veya "Geliştirme Bölümleri" oluşturur. Geliştirme Çerçevesi, geliştirmeleri yönetmeyi ve etkinleştirmeyi veya devre dışı bırakmayı kolaylaştıran özel kodu kapsamak için içerme yapılarını kullanır. Bu teknik, SAP uygulamalarını özelleştirmek için yaygın olarak kullanılır ve standart kodda yapılan doğrudan değişiklikler 
