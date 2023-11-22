@@ -33,6 +33,54 @@ Böylece, ihtiyaçları belirleme, Enhancement Spot belirleme, BADI oluşturma v
 
 ![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/ba2d7c13-7130-4ee2-9e50-a8a9f228f498)
 
+Yukarıdaki görsellediki birim üretme kipini inceleyelim.
+
+## Birim Üretme Kipi
+### 1.Yeniden Üreten Birim Yaratma:(Newly Creating Instantiation) 
+
+Interface oluşturalım. Bu interface de attribute olarak gv_val type integer bir değişken tanımlayalım. Method tanımlayalım(zif_demo_badi~display). Metodumuzun tipi instance seçelim.
+
+```cadence
+METHOD ZIF_DEMO_BADI~DISPLAY.
+GV_VAR = GV_VAR  +1. 
+WRITE: '   ' / GV_VAR.
+ENDMETHOD.
+```
+
+Daha sonra bir program oluşturup aşağıdaki şekilde yazılır ise:
+```cadence
+DATA: LR_BADI1 TYPE REF TO BADI_NAME.
+DATA: LR_BADI2 TYPE REF TO BADI_NAME.
+
+GET BADI LR_BADI1.
+GET BADI LR_BADI2.
+
+CALL BADI  LR_BADI1>DISPLAY.
+ULINE.
+CALL BADI  LR_BADI2>DISPLAY.
+```
+Programın çıktısı aşağıdaki şekildedir.
+
+	10 
+	_____
+	10
+
+Bir badi den birden fazla referans alarak oluştulur ise newly creating Instantiation  kullanılır ise ilk badi çağrıldığı zaman ve nesne oluşturulunca bundan sonra her bir badi oluşturulduğu zaman gv_var  program ilk başladığı değer ile başlar .Bir önceki gv_var badi değerinden başlamaz .Çünkü her seferinde yeni bir nesne oluşturdu için programında ilk olarak gv_var ne olarak  tanımlandı ise bundan sonra her oluşturulan badi için de o değer kullanılır.
+
+### 2.Yeniden Kullanılan Birim Üretme
+
+Yukarıdaki örnekle aynı içeriklere sahip içerikler yapılır tek fark kullanabilirlik kısmında yeniden kullananım seçilir ise elimiz de iki badi oldu için ilk gv_var değeri ikinci badinin başlangıç değeri olarak kullanılacaktır.
+O yüzden de çıktı:
+
+	10
+	______
+	20
+Olur.
+
+### 3.Bağlama Özgü Örnekleme: (Context-Specific Instantiation)
+Bu modda, sistem örnekleri BAdI tanımında belirtilen belirli kriterlere veya bağlama göre gruplandırır. Farklı bağlamlara göre birden çok örnek oluşturulabilir ve her örnek, aynı bağlam içindeki çağrılar arasında paylaşılır.
+Kullanım Senaryosu: Örnekleri belirli kriterlere göre gruplamak istediğinizde bu modu kullanın ve her çağrı grubu aynı örnekle çalışmalıdır. Bağlama özgü örnekleme, farklı bağlamlara ait çağrılar için farklı durumları korurken BAdI uygulama durumunu ilgili çağrılar arasında paylaşmanıza olanak tanır.
+
 
 
 
