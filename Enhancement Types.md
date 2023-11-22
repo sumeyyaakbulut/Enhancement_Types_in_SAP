@@ -19,3 +19,20 @@ Implementasyonlara Kod Eklenmesi: Oluşturduğunuz BADI implementasyonlarının 
 BADI Implementasyonlarını Aktifleştirme: Eklediğiniz BADI implementasyonlarını aktif hale getirmeniz gerekir, böylece SAP sistemi bunları tanır ve çalıştırır. Bu adımı "SE19" transaksiyon kodu kullanarak yapabilirsiniz.
 Böylece, ihtiyaçları belirleme, Enhancement Spot belirleme, BADI oluşturma ve BADI implementasyonlarını oluşturma ve aktifleştirme adımlarını takip ederek SAP ABAP projelerinde BADI kullanmış olursunuz. Bu şekilde, standard SAP işleyişini özelleştirmek için daha esnek ve yönetilebilir bir yöntem elde edebilir.
 
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/c62100ce-5585-48ea-8cfd-d2c473ec3e8c)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/0e1b257a-848a-4b65-82f0-ee27e3cd0302)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/58710a17-935b-4aab-882d-2710286b8fb0)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/5f10864d-d85a-437e-8336-02175f98226d)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/ef8a3160-033f-481d-b27d-f8b6d5df9a40)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/71fe3098-5441-44fc-871b-01ac0c0c1d50)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/ba2d7c13-7130-4ee2-9e50-a8a9f228f498)
+
+
+
+
