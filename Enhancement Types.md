@@ -33,7 +33,23 @@ Böylece, ihtiyaçları belirleme, Enhancement Spot belirleme, BADI oluşturma v
 
 ![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/ba2d7c13-7130-4ee2-9e50-a8a9f228f498)
 
-Yukarıdaki görsellediki birim üretme kipini inceleyelim.
+Yukarıdaki görsellediki birim üretme kipini ve kullanılabilirlik inceleyelim.
+
+## Kullanılabilirlik
+### 1.Çoklu Kullanım (Çoklu Uygulama): 
+BAdI'ler çoklu kullanımı veya çoklu uygulamaları destekler. Bu, tek bir BAdI tanımının birden fazla uygulamaya sahip olabileceği ve her uygulamanın farklı özel mantık içerebileceği anlamına gelir. Bu esneklik, farklı müşterilerin veya projelerin aynı BAdI'yi kendi özel gereksinimlerine göre kendi benzersiz yöntemleriyle uygulamasına olanak tanır.
+Örneğin, SAP'nin bir satış siparişinin işlenmesini geliştirmek için bir BAdI sağladığını varsayalım. SAP kullanan farklı şirketler, satış siparişi işlemeyi kendi iş ihtiyaçlarına göre özelleştirmek için bu BAdI'yi uygulayabilir. Bir şirket, hepsi aynı BAdI'nin farklı uygulamalarını kullanarak, özel kontroller ve doğrulamalar ekleyebilirken, bir diğeri satış siparişini harici bir sistemle entegre edebilir.
+
+### 2.SAP Dahili Uygulamaları: 
+Bazı BAdI'lerin SAP tarafından dahili olarak kullanılması amaçlanmıştır. SAP, kendi geliştiricilerinin SAP uygulamalarının standart davranışını geliştirmesine veya değiştirmesine izin vermek için bu BAdI'leri oluşturabilir. Bu BAdI'ler öncelikle SAP'nin dahili kullanımı için olduğundan, belgelenmemiştir veya müşteri kullanımına yönelik değildir.
+
+### 3.Sınırlı Filtre Kullanımı: 
+Bazı BAdI'ler "filtre değerleri" veya "filtre kriterleri" ile gelir. Bu filtreler, belirli koşullara veya parametrelere dayalı olarak belirli uygulamaların yürütülmesini kontrol etmenize izin verir. Bir BAdI'de filtreler olduğunda, sistem hangi uygulama(lar)ın yürütüleceğine karar vermeden önce bu filtreleri kontrol eder.
+Örneğin, satınalma siparişlerini doğrulamak için bir BAdI olduğunu hayal edin. BAdI, satın alma organizasyonuna dayalı bir filtreye sahip olabilir. Farklı satın alma organizasyonlarının farklı doğrulama gereksinimleri olabilir, bu nedenle her organizasyonun doğrulama mantığı ayrı ayrı uygulanabilir ve sistem, bir satınalma siparişini işlerken yalnızca eşleşen satın alma organizasyonu filtresiyle uygulamayı yürütür.
+
+
+Özetle, ABAP BAdI'leri çoklu kullanım yeteneği sağlar, yani her biri farklı gereksinimleri karşılayan çoklu uygulamalara sahip olabilirler. Bazı BAdI'ler SAP'nin dahili kullanımına yönelik olabilir ve müşteri kullanımına yönelik olarak belgelenmemiştir. Ek olarak, belirli BAdI'lerde, belirli kriterlere göre hangi uygulamanın yürütüleceğini kontrol etmenize izin veren ve çeşitli koşullara dayalı daha fazla özelleştirme seçeneği sağlayan filtreler olabilir.
+
 
 ## Birim Üretme Kipi
 ### 1.Yeniden Üreten Birim Yaratma:(Newly Creating Instantiation) 
