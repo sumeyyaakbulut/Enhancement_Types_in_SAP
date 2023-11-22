@@ -97,6 +97,29 @@ Olur.
 Bu modda, sistem örnekleri BAdI tanımında belirtilen belirli kriterlere veya bağlama göre gruplandırır. Farklı bağlamlara göre birden çok örnek oluşturulabilir ve her örnek, aynı bağlam içindeki çağrılar arasında paylaşılır.
 Kullanım Senaryosu: Örnekleri belirli kriterlere göre gruplamak istediğinizde bu modu kullanın ve her çağrı grubu aynı örnekle çalışmalıdır. Bağlama özgü örnekleme, farklı bağlamlara ait çağrılar için farklı durumları korurken BAdI uygulama durumunu ilgili çağrılar arasında paylaşmanıza olanak tanır.
 
+Daha sonra badi oluşturmaya devam edelim
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/64f8ee37-ad55-4bc5-b38f-98264c7746cc)
 
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/b32ec77a-c793-4353-97f6-63d9a60a68f5)
 
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/d1c70a0e-b539-4fac-a11c-5bc34b62067d)
 
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/15368092-4f8c-46dc-b779-e01541ceec68)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/a27dfa21-533a-4f35-bf06-b792cb6b223a)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/01bdfd14-3e45-4076-bbab-7c7fa0d1901e)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/2e314260-d31c-4538-8894-a649679430d4)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/45a13643-4093-4f54-bb9f-e0e99bd5ecab)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/3061ec5b-dde9-4b5e-bbea-2ad7cda46f08)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/bf43bbd5-ab0d-46da-8255-fe3ecc36f83c)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/06a11177-2ec5-42fa-8c70-40f153b4bcb1)
+
+ ![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/3de693a1-613b-4fbb-ac83-164628e6c7e2)
+
+![image](https://github.com/sumeyyaakbulut/Enhancement_Types_in_SAP/assets/62395974/0bd0655a-2cd0-443f-98f9-d7acebfd8f88)
